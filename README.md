@@ -27,6 +27,9 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   <a href="https://github.com/ggml-org/ggml"><img src="https://img.shields.io/badge/ggml-1F2937?style=flat-square&logo=c&logoColor=white" alt="ggml"></a>
   <a href="https://github.com/apple/mlx"><img src="https://img.shields.io/badge/MLX-111827?style=flat-square&logo=apple&logoColor=white" alt="MLX"></a>
   <a href="https://github.com/KhronosGroup/MoltenVK"><img src="https://img.shields.io/badge/Metal-6B7280?style=flat-square&logo=apple&logoColor=white" alt="Metal"></a>
+</p>
+
+<p>
   <a href="https://github.com/nats-io/nats-server"><img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white" alt="NATS"></a>
   <a href="https://github.com/nats-io/nats-server"><img src="https://img.shields.io/badge/JetStream-0F172A?style=flat-square&logo=natsdotio&logoColor=white" alt="JetStream"></a>
   <a href="https://github.com/emqx/emqx"><img src="https://img.shields.io/badge/EMQX-00B173?style=flat-square&logo=emqx&logoColor=white" alt="EMQX"></a>
@@ -44,6 +47,9 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   <a href="https://github.com/ory/oathkeeper"><img src="https://img.shields.io/badge/Ory_Oathkeeper-118AB2?style=flat-square&logo=ory&logoColor=white" alt="Ory Oathkeeper"></a>
   <a href="https://github.com/moby/moby"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
   <a href="https://github.com/Kong/kong"><img src="https://img.shields.io/badge/Kong-003459?style=flat-square&logo=kong&logoColor=white" alt="Kong"></a>
+</p>
+
+<p>
   <a href="https://github.com/grafana/grafana"><img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"></a>
   <a href="https://github.com/grafana/tempo"><img src="https://img.shields.io/badge/Tempo-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Tempo"></a>
   <a href="https://github.com/grafana/loki"><img src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Loki"></a>
