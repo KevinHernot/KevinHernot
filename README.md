@@ -36,6 +36,8 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   <a href="https://github.com/mqtt/mqtt.org"><img src="https://img.shields.io/badge/MQTT_v5-660066?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT v5"></a>
   <a href="https://github.com/minio/minio"><img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white" alt="MinIO"></a>
   <a href="https://github.com/grpc/grpc"><img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white" alt="gRPC"></a>
+  <a href="https://github.com/valkey-io/valkey"><img src="https://img.shields.io/badge/Valkey-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Valkey"></a>
+  <a href="https://github.com/webrtc/samples"><img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"></a>
   <a href="https://github.com/opensearch-project/OpenSearch"><img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white" alt="OpenSearch"></a>
   <a href="https://github.com/protocolbuffers/protobuf"><img src="https://img.shields.io/badge/Protocol_Buffers-3367D6?style=flat-square&logo=protobuf&logoColor=white" alt="Protocol Buffers"></a>
   <a href="https://github.com/httpwg/http2-spec"><img src="https://img.shields.io/badge/HTTP_2-1E88E5?style=flat-square&logo=httpie&logoColor=white" alt="HTTP 2"></a>
@@ -62,8 +64,6 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   <a href="https://github.com/Infisical/infisical"><img src="https://img.shields.io/badge/Infisical-111827?style=flat-square&logo=infisical&logoColor=white" alt="Infisical"></a>
   <a href="https://github.com/actions/runner"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"></a>
   <a href="https://github.com/OAI/OpenAPI-Specification"><img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"></a>
-  <a href="https://github.com/valkey-io/valkey"><img src="https://img.shields.io/badge/Valkey-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Valkey"></a>
-  <a href="https://github.com/webrtc/samples"><img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"></a>
 </p>
 
 <p>
