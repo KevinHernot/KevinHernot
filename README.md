@@ -1,6 +1,4 @@
-<p align="center">
-  <strong>Tech founder / Agentic coder / AI research scientist</strong>
-</p>
+<h1 align="center">Tech founder / Agentic coder / AI research scientist</h1>
 
 <p align="center">
   AI research | Mobile frontend | Scalable backend | DevSecOps
