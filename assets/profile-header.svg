@@ -1,0 +1,81 @@
+<svg width="1600" height="720" viewBox="0 0 1600 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kevin Hernot GitHub profile banner</title>
+  <desc id="desc">A minimal editorial banner for Kevin Hernot with soft gradients, restrained typography, and abstract bubble shapes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="56" x2="1510" y2="672" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8EC"/>
+      <stop offset="0.52" stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EEF9F2"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="1078" y1="122" x2="1400" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#43C8FF"/>
+      <stop offset="1" stop-color="#1F67FF"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="1170" y1="272" x2="1502" y2="576" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9B6A"/>
+      <stop offset="1" stop-color="#FF6B60"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="999" y1="356" x2="1284" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EDBB2"/>
+      <stop offset="1" stop-color="#25B18A"/>
+    </linearGradient>
+    <filter id="soft" x="-160" y="-160" width="1920" height="1040" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="44"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="720" rx="40" fill="url(#bg)"/>
+
+  <circle cx="126" cy="104" r="116" fill="#FFF1CF" opacity="0.86" filter="url(#soft)"/>
+  <circle cx="1468" cy="116" r="132" fill="#DDF3FF" opacity="0.92" filter="url(#soft)"/>
+  <circle cx="1382" cy="640" r="144" fill="#E0F8EA" opacity="0.94" filter="url(#soft)"/>
+  <circle cx="942" cy="664" r="120" fill="#FFE3DA" opacity="0.84" filter="url(#soft)"/>
+
+  <rect x="106" y="92" width="174" height="36" rx="18" fill="#10283A"/>
+  <text x="193" y="115" fill="#F8FBFF" font-size="15" letter-spacing="3" font-family="Verdana, DejaVu Sans, sans-serif" text-anchor="middle">KEVIN HERNOT</text>
+
+  <text x="106" y="228" fill="#0B2234" font-size="60" font-weight="700" font-family="Verdana, DejaVu Sans, sans-serif">
+    <tspan x="106" dy="0">Founder-engineer.</tspan>
+    <tspan x="106" dy="74">Building calmer</tspan>
+    <tspan x="106" dy="74">social software.</tspan>
+  </text>
+
+  <text x="110" y="472" fill="#4B6675" font-size="24" font-family="Verdana, DejaVu Sans, sans-serif">
+    <tspan x="110" dy="0">Hopen combines product thesis, Flutter craft,</tspan>
+    <tspan x="110" dy="36">Go systems, real-time architecture,</tspan>
+    <tspan x="110" dy="36">and trust-aware infrastructure.</tspan>
+  </text>
+
+  <g opacity="0.96">
+    <rect x="110" y="610" width="118" height="40" rx="20" fill="#E6F6FF"/>
+    <text x="169" y="635" fill="#2169E9" font-size="18" font-family="Verdana, DejaVu Sans, sans-serif" text-anchor="middle">Hopen</text>
+
+    <rect x="244" y="610" width="126" height="40" rx="20" fill="#EAFBF3"/>
+    <text x="307" y="635" fill="#188967" font-size="18" font-family="Verdana, DejaVu Sans, sans-serif" text-anchor="middle">Flutter</text>
+
+    <rect x="386" y="610" width="82" height="40" rx="20" fill="#FFF2EB"/>
+    <text x="427" y="635" fill="#D85E38" font-size="18" font-family="Verdana, DejaVu Sans, sans-serif" text-anchor="middle">Go</text>
+
+    <rect x="484" y="610" width="126" height="40" rx="20" fill="#EEF3FF"/>
+    <text x="547" y="635" fill="#4865D8" font-size="18" font-family="Verdana, DejaVu Sans, sans-serif" text-anchor="middle">Realtime</text>
+
+    <rect x="626" y="610" width="124" height="40" rx="20" fill="#F3EEFF"/>
+    <text x="688" y="635" fill="#6C4ED7" font-size="18" font-family="Verdana, DejaVu Sans, sans-serif" text-anchor="middle">Security</text>
+  </g>
+
+  <g>
+    <circle cx="1262" cy="230" r="120" fill="url(#blue)" opacity="0.96"/>
+    <circle cx="1362" cy="404" r="146" fill="url(#warm)" opacity="0.9"/>
+    <circle cx="1138" cy="484" r="102" fill="url(#mint)" opacity="0.95"/>
+    <circle cx="1262" cy="604" r="74" fill="#FFF8F3" opacity="0.95"/>
+    <circle cx="1452" cy="584" r="70" fill="#F8FCFF" opacity="0.95"/>
+
+    <circle cx="1262" cy="230" r="140" stroke="#33C5FF" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="1362" cy="404" r="166" stroke="#FF8A69" stroke-opacity="0.16" stroke-width="2"/>
+    <circle cx="1138" cy="484" r="122" stroke="#34C79D" stroke-opacity="0.18" stroke-width="2"/>
+
+    <path d="M1262 230L1362 404L1138 484L1262 604" stroke="#FFFFFF" stroke-opacity="0.58" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1262 230L1452 584" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1138 484L1452 584" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
