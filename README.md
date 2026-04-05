@@ -3,12 +3,8 @@
 </p>
 
 <p align="center">
-  <strong>Kevin Hernot</strong><br>
+  <strong>Tech founder / AI research scientist</strong><br>
   Founder-engineer building Hopen, a contextual social app designed to help people make true friends.
-</p>
-
-<p align="center">
-  Smaller circles | Real conversations | Stronger trust
 </p>
 
 <p align="center">
@@ -80,7 +76,5 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   - Building a Go backend around gRPC, events, messaging, and operational clarity.
   - Building a DevSecOps pipeline that follows best practices.
   - Discover Hopen at [hopenapp.com](https://hopenapp.com)
-- Aliaser: Semantic Frame Graph Planning for Heterogeneous Memory Reuse in Agentic LLM Workflows
-  - Built a Python proof-of-concept for Semantic Frame Graph Planning for Heterogeneous Memory Reuse in Agentic LLM Workflows.
-  - Building the implementation of Aliaser, currently awaiting A100/H100 runtime benchmarks.
-  - Writing the article.
+- Blackhole + blackhole_runtime: [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for Blackhole's five pillars, while [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
+- OIF: [Open Inference Fabric (OIF)](https://github.com/KevinHernot/Open_Inference_Fabric_%28OIF%29) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
