@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Tech founder / AI research scientist</strong><br>
+  <strong>Tech founder / Agentic coder / AI research scientist</strong><br>
   Founder-engineer building Hopen, a contextual social app designed to help people make true friends.
 </p>
 
@@ -39,6 +39,7 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   <a href="https://github.com/minio/minio"><img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white" alt="MinIO"></a>
   <a href="https://github.com/grpc/grpc"><img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white" alt="gRPC"></a>
   <a href="https://github.com/opensearch-project/OpenSearch"><img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white" alt="OpenSearch"></a>
+  <a href="https://github.com/protocolbuffers/protobuf"><img src="https://img.shields.io/badge/Protocol_Buffers-3367D6?style=flat-square&logo=protobuf&logoColor=white" alt="Protocol Buffers"></a>
 </p>
 
 <p>
@@ -61,6 +62,7 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   <a href="https://github.com/Infisical/infisical"><img src="https://img.shields.io/badge/Infisical-111827?style=flat-square&logo=infisical&logoColor=white" alt="Infisical"></a>
   <a href="https://github.com/actions/runner"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"></a>
   <a href="https://github.com/OAI/OpenAPI-Specification"><img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"></a>
+  <a href="https://github.com/evilmartians/oklch-picker"><img src="https://img.shields.io/badge/OKLCH-FF6B6B?style=flat-square&logo=css&logoColor=white" alt="OKLCH"></a>
   <a href="https://github.com/valkey-io/valkey"><img src="https://img.shields.io/badge/Valkey-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Valkey"></a>
   <a href="https://github.com/webrtc/samples"><img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"></a>
   <a href="https://github.com/KhronosGroup/glslang"><img src="https://img.shields.io/badge/Shaders-990000?style=flat-square&logo=opengl&logoColor=white" alt="Shaders"></a>
@@ -71,7 +73,6 @@ Hopen is the clearest expression of that. It brings together product narrative, 
 <p>
   <a href="https://github.com/python/cpython"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
   <a href="https://github.com/cplusplus/draft"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"></a>
-  <a href="https://github.com/protocolbuffers/protobuf"><img src="https://img.shields.io/badge/Protocol_Buffers-3367D6?style=flat-square&logo=protobuf&logoColor=white" alt="Protocol Buffers"></a>
   <a href="https://github.com/kubernetes/kubernetes"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"></a>
   <a href="https://github.com/helm/helm"><img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm"></a>
   <a href="https://github.com/microsoft/api-guidelines"><img src="https://img.shields.io/badge/REST-0F6CBD?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST"></a>
