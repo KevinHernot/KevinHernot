@@ -1,12 +1,16 @@
-<h1 align="center">Tech founder / Agentic coder / AI research scientist</h1>
+<h1 align="center">Tech founder / AI research scientist</h1>
 
 <p align="center">
   AI research | Mobile frontend | Scalable backend | DevSecOps
 </p>
 
-I care about software that feels emotionally clear on the surface and technically serious underneath.
+I care about software that feels simple and clear on the surface, while being technically strong and resilient underneath.
+
+I also research about frontier solutions to push the boundaries of LLM inference.
 
 Hopen is the clearest expression of that. It brings together product narrative, Flutter interface work, Go microservices, real-time transport, voice and video, authentication, authorization, observability, and platform architecture in one coherent system.
+
+Open Runtime Interchange is the frontier  
 
 ## I ❤️
 
@@ -96,9 +100,22 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   - Building a DevSecOps pipeline that follows best practices.
   - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
+- ORI: [Open Runtime Interchange](https://github.com/KevinHernot/Open_Inference_Fabric_%28OIF%29) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+  - This project is intentionally standards-first. ORI is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
+    - The working thesis is simple:
+    > OpenAI compatibility is necessary, but it is not enough.
+    OpenAI-style APIs made client integration easier, but runtimes still diverge in the most important places underneath the surface:
+    - cache identity and reuse
+    - disaggregated prefill/decode handoff
+    - routing state for MoE, RAG, and tools
+    - backend-specific capabilities
+    - observability, replay, and benchmark output
+    ORI focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
+
 <p align="center">
   <img src="./assets/blackhole.jpg" alt="Blackhole" width="140">
 </p>
 
-- Blackhole + blackhole_runtime: [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for Blackhole's five pillars, while [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
-- OIF: [Open Inference Fabric (OIF)](https://github.com/KevinHernot/Open_Inference_Fabric_%28OIF%29) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+- Blackhole + blackhole_runtime: : Five game-engine optimization pillars adapted from 90s rendering tricks to improve and accelerate LLM.
+  - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for Blackhole's five pillars.
+  - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
