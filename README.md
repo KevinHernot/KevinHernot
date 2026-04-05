@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Kevin Hernot profile banner" width="100%">
-</p>
-
-<p align="center">
   <strong>Tech founder / Agentic coder / AI research scientist</strong>
 </p>
 
@@ -86,7 +82,7 @@ Hopen is the clearest expression of that. It brings together product narrative, 
 
 ## I 🚧
 
-<p>
+<p align="center">
   <img src="./assets/hopen.svg" alt="Hopen" width="88">
 </p>
 
@@ -96,7 +92,7 @@ Hopen is the clearest expression of that. It brings together product narrative, 
   - Building a DevSecOps pipeline that follows best practices.
   - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
-<p>
+<p align="center">
   <img src="./assets/blackhole.jpg" alt="Blackhole" width="140">
 </p>
 
