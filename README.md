@@ -18,7 +18,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
 
-## I ❤️
+## I love ❤️
 
 <p>
   <a href="https://github.com/flutter/flutter"><img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"></a>
@@ -57,8 +57,6 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <a href="https://github.com/ory/kratos"><img src="https://img.shields.io/badge/Ory_Kratos-EF476F?style=flat-square&logo=ory&logoColor=white" alt="Ory Kratos"></a>
   <a href="https://github.com/ory/keto"><img src="https://img.shields.io/badge/Ory_Keto-06D6A0?style=flat-square&logo=ory&logoColor=white" alt="Ory Keto"></a>
   <a href="https://github.com/ory/oathkeeper"><img src="https://img.shields.io/badge/Ory_Oathkeeper-118AB2?style=flat-square&logo=ory&logoColor=white" alt="Ory Oathkeeper"></a>
-  <a href="https://github.com/moby/moby"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
-  <a href="https://github.com/Kong/kong"><img src="https://img.shields.io/badge/Kong-003459?style=flat-square&logo=kong&logoColor=white" alt="Kong"></a>
 </p>
 
 <p>
@@ -73,7 +71,8 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 <p>
   <a href="https://github.com/Infisical/infisical"><img src="https://img.shields.io/badge/Infisical-111827?style=flat-square&logo=infisical&logoColor=white" alt="Infisical"></a>
   <a href="https://github.com/actions/runner"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"></a>
-  <a href="https://github.com/OAI/OpenAPI-Specification"><img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"></a>
+  <a href="https://github.com/moby/moby"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://github.com/Kong/kong"><img src="https://img.shields.io/badge/Kong-003459?style=flat-square&logo=kong&logoColor=white" alt="Kong"></a>
 </p>
 
 <p>
@@ -81,7 +80,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <a href="https://github.com/KhronosGroup/glslang"><img src="https://img.shields.io/badge/Shaders-990000?style=flat-square&logo=opengl&logoColor=white" alt="Shaders"></a>
 </p>
 
-## I 👍
+## I like 👍
 
 <p>
   <a href="https://github.com/python/cpython"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
@@ -89,12 +88,12 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <a href="https://github.com/kubernetes/kubernetes"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"></a>
   <a href="https://github.com/helm/helm"><img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm"></a>
   <a href="https://github.com/quicwg/base-drafts"><img src="https://img.shields.io/badge/HTTP_3-7E57C2?style=flat-square&logo=quic&logoColor=white" alt="HTTP 3"></a>
-  <a href="https://github.com/microsoft/api-guidelines"><img src="https://img.shields.io/badge/REST-0F6CBD?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST"></a>
+  <a href="https://github.com/microsoft/api-guidelines"><img src="https://img.shields.io/badge/REST-0F6CBD?style=flat-square&logo=microsoft&logoColor=white" alt="REST"></a>
   <a href="https://github.com/nodejs/node"><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
   <a href="https://github.com/whatwg/html"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"></a>
 </p>
 
-## I 🚧
+## Currently building 🚧
 
 <p align="center">
   <img src="./assets/hopen-logotype.png" alt="Hopen" width="60%">
