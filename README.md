@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/bubble_globe.gif" width="100%" alt="Bubble Globe Rendering Demo">
+  ![Bubble Globe Rendering Demo](https://raw.githubusercontent.com/KevinHernot/KevinHernot/main/assets/bubble_globe.gif)
 </p>
 
 I care about software that feels simple and clear on the surface, while being technically strong and resilient underneath.
