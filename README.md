@@ -100,6 +100,10 @@ Open Runtime Interchange is the frontier
   - Building a DevSecOps pipeline that follows best practices.
   - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
+<p align="center">
+  <img src="./assets/ORI.jpg" alt="ORI" height="140">
+</p>
+
 - ORI: [Open Runtime Interchange](https://github.com/KevinHernot/Open_Inference_Fabric_%28OIF%29) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
   - This project is intentionally standards-first. ORI is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
   - The working thesis is simple:
