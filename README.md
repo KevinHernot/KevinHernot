@@ -91,7 +91,7 @@ Open Runtime Interchange is the frontier
 ## I 🚧
 
 <p align="center">
-  <img src="./assets/hopen.svg" alt="Hopen" width="88">
+  <img src="./assets/hopen-logotype.svg" alt="Hopen" height="140">
 </p>
 
 - Hopen: The social app to help everyone make true friends.
@@ -102,20 +102,20 @@ Open Runtime Interchange is the frontier
 
 - ORI: [Open Runtime Interchange](https://github.com/KevinHernot/Open_Inference_Fabric_%28OIF%29) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
   - This project is intentionally standards-first. ORI is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
-    - The working thesis is simple:
+  - The working thesis is simple:
     > OpenAI compatibility is necessary, but it is not enough.
-    OpenAI-style APIs made client integration easier, but runtimes still diverge in the most important places underneath the surface:
+  - OpenAI-style APIs made client integration easier, but runtimes still diverge in the most important places underneath the surface:
     - cache identity and reuse
     - disaggregated prefill/decode handoff
-    - routing state for MoE, RAG, and tools
+     - routing state for MoE, RAG, and tools
     - backend-specific capabilities
     - observability, replay, and benchmark output
-    ORI focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
+  - ORI focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
 
 <p align="center">
-  <img src="./assets/blackhole.jpg" alt="Blackhole" width="140">
+  <img src="./assets/blackhole.jpg" alt="Blackhole" height="140">
 </p>
 
-- Blackhole + blackhole_runtime: : Five game-engine optimization pillars adapted from 90s rendering tricks to improve and accelerate LLM.
+- Blackhole: Five game-engine optimization pillars adapted from 90s rendering tricks to improve and accelerate LLM.
   - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for Blackhole's five pillars.
   - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
