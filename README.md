@@ -6,7 +6,7 @@
 
 <p align="center">
   <video width="100%" controls autoplay loop muted playsinline>
-    <source src="assets/bubble_globe.mp4" type="video/mp4">
+    <source src="https://github.com/KevinHernot/KevinHernot/raw/main/assets/bubble_globe.mp4" type="video/mp4">
   </video>
 </p>
 
