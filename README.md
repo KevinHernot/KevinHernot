@@ -4,7 +4,9 @@
   AI research | Mobile frontend | Scalable backend | DevSecOps
 </p>
 
-https://github.com/KevinHernot/KevinHernot/raw/main/assets/bubble_globe.mp4
+<p align="center">
+  <img src="./assets/bubble_globe.gif" width="100%" alt="Bubble Globe Rendering Demo">
+</p>
 
 I care about software that feels simple and clear on the surface, while being technically strong and resilient underneath.
 
