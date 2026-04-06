@@ -4,11 +4,17 @@
   AI research | Mobile frontend | Scalable backend | DevSecOps
 </p>
 
+<p align="center">
+  <video width="100%" controls autoplay loop muted playsinline>
+    <source src="assets/bubble_globe.mp4" type="video/mp4">
+  </video>
+</p>
+
 I care about software that feels simple and clear on the surface, while being technically strong and resilient underneath.
 
-I research frontier solutions to push the boundaries of LLM inference, spanning high-performance **cloud infrastructure (A100/H100)** and optimized **local/edge execution**.
+I research frontier solutions to push the boundaries of LLM inference, spanning high-performance **cloud infrastructure (A100/H100)** and optimized **local/edge execution** (Apple Silicon).
 
-**Hopen** is the product expression of that—a social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
+**Hopen** is the product expression of that focus: a brand-new social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
 
 **Open Runtime Interchange (ORI)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
 
