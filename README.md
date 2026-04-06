@@ -91,7 +91,7 @@ Open Runtime Interchange is the frontier
 ## I 🚧
 
 <p align="center">
-  <img src="./assets/hopen-logotype.svg" alt="Hopen" width="100%">
+  <img src="./assets/hopen-logotype.png" alt="Hopen" width="20%">
 </p>
 
 - Hopen: The social app to help everyone make true friends.
