@@ -91,7 +91,7 @@ Open Runtime Interchange is the frontier
 ## I 🚧
 
 <p align="center">
-  <img src="./assets/hopen-logotype.svg" alt="Hopen" height="140">
+  <img src="./assets/hopen-logotype.svg" alt="Hopen" width="100%">
 </p>
 
 - Hopen: The social app to help everyone make true friends.
@@ -101,7 +101,7 @@ Open Runtime Interchange is the frontier
   - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
-  <img src="./assets/ORI.jpg" alt="ORI" height="140">
+  <img src="./assets/ORI.jpg" alt="ORI" width="100%">
 </p>
 
 - ORI: [Open Runtime Interchange](https://github.com/KevinHernot/Open_Inference_Fabric_%28OIF%29) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
@@ -117,7 +117,7 @@ Open Runtime Interchange is the frontier
   - ORI focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
 
 <p align="center">
-  <img src="./assets/blackhole.jpg" alt="Blackhole" height="140">
+  <img src="./assets/blackhole.jpg" alt="Blackhole" width="100%">
 </p>
 
 - Blackhole: Five game-engine optimization pillars adapted from 90s rendering tricks to improve and accelerate LLM.
