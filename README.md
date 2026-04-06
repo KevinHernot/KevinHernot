@@ -6,11 +6,13 @@
 
 I care about software that feels simple and clear on the surface, while being technically strong and resilient underneath.
 
-I also research about frontier solutions to push the boundaries of LLM inference.
+I research frontier solutions to push the boundaries of LLM inference, spanning high-performance **cloud infrastructure (A100/H100)** and optimized **local/edge execution**.
 
-Hopen is the clearest expression of that. It brings together product narrative, Flutter interface work, Go microservices, real-time transport, voice and video, authentication, authorization, observability, and platform architecture in one coherent system.
+**Hopen** is the product expression of that—a social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
 
-Open Runtime Interchange is the frontier  
+**Open Runtime Interchange (ORI)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
+
+**Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
 
 ## I ❤️
 
@@ -91,7 +93,7 @@ Open Runtime Interchange is the frontier
 ## I 🚧
 
 <p align="center">
-  <img src="./assets/hopen-logotype.png" alt="Hopen" width="20%">
+  <img src="./assets/hopen-logotype.png" alt="Hopen" width="60%">
 </p>
 
 - Hopen: The social app to help everyone make true friends.
