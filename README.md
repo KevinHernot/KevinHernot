@@ -4,11 +4,7 @@
   AI research | Mobile frontend | Scalable backend | DevSecOps
 </p>
 
-<p align="center">
-  <video width="100%" controls autoplay loop muted playsinline>
-    <source src="https://github.com/KevinHernot/KevinHernot/raw/main/assets/bubble_globe.mp4" type="video/mp4">
-  </video>
-</p>
+https://github.com/KevinHernot/KevinHernot/raw/main/assets/bubble_globe.mp4
 
 I care about software that feels simple and clear on the surface, while being technically strong and resilient underneath.
 
