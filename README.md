@@ -27,6 +27,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <a href="https://github.com/simolus3/drift"><img src="https://img.shields.io/badge/Drift-5E35B1?style=flat-square&logo=sqlite&logoColor=white" alt="Drift"></a>
   <a href="https://github.com/rrousselGit/riverpod"><img src="https://img.shields.io/badge/Riverpod-0A7EA4?style=flat-square&logo=flutter&logoColor=white" alt="Riverpod"></a>
   <a href="https://github.com/golang/go"><img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"></a>
+  <a href="https://github.com/rust-lang/rust"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"></a>
   <a href="https://github.com/postgres/postgres"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
   <a href="https://github.com/scylladb/scylladb"><img src="https://img.shields.io/badge/ScyllaDB-6CD4FF?style=flat-square&logo=scylladb&logoColor=062C3F" alt="ScyllaDB"></a>
 </p>
