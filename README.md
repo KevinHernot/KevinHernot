@@ -18,7 +18,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
 
-## I love ❤️
+## Working with
 
 <p>
   <a href="https://github.com/flutter/flutter"><img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"></a>
@@ -81,7 +81,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <a href="https://github.com/KhronosGroup/glslang"><img src="https://img.shields.io/badge/Shaders-990000?style=flat-square&logo=opengl&logoColor=white" alt="Shaders"></a>
 </p>
 
-## I like 👍
+## Exploring
 
 <p>
   <a href="https://github.com/python/cpython"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
@@ -94,7 +94,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <a href="https://github.com/whatwg/html"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"></a>
 </p>
 
-## Currently building 🚧
+## Building
 
 <p align="center">
   <img src="./assets/hopen-logotype.png" alt="Hopen" height="180">
