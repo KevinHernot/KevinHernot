@@ -107,7 +107,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
-  <img src="./assets/ORI.jpg" alt="ORI" width="100%">
+  <img src="./assets/ORI.jpg" alt="ORI" height="180">
 </p>
 
 - ORI: [Open Runtime Interchange](https://github.com/KevinHernot/ori) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
@@ -123,7 +123,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - ORI focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
 
 <p align="center">
-  <img src="./assets/blackhole.jpg" alt="Blackhole" width="100%">
+  <img src="./assets/blackhole.jpg" alt="Blackhole" height="180">
 </p>
 
 - Blackhole: LLM inference hits the same enemy that 90s game engines fought — the **memory wall**. Doom, Quake, and Minecraft survived on a few megabytes of RAM by developing an entire science of *algorithmic illusion*: never render what the player can't see, never move data the GPU doesn't need, never store what you can generate on the fly. Blackhole translates five of those game-engine paradigms into the transformer attention mechanism:
