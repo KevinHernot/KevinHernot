@@ -135,10 +135,20 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
  - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for the five pillars.
  - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
 
+
+<p align="center">
+  <img src="./assets/go.png" alt="Go" width="100%">
+</p>
+
 - [relaybox](https://github.com/KevinHernot/relaybox) is an open-source Go project for reliable event delivery primitives:
   - It currently starts with idempotent NATS consumers and stable event identity extraction from headers and payloads.
   - The goal is to grow it into a compact reliability toolkit for event-driven Go services, covering duplicate protection, deterministic event identity, and eventually broader delivery guarantees.
   - It reflects the backend reliability work behind Hopen, extracted into a smaller public building block instead of another monolithic framework.
+
+
+<p align="center">
+  <img src="./assets/flutter.png" alt="Flutter" width="100%">
+</p>
 
 - [dialog_harbor](https://github.com/KevinHernot/dialog_harbor) is an open-source Flutter package for reliable dialog-intent delivery:
   - It is designed for apps where important dialog events can arrive before the UI is ready, during reconnects, or across tricky lifecycle transitions.
