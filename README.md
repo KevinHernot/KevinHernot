@@ -134,12 +134,17 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
  - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for the five pillars.
  - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
 
-- [relaybox](https://github.com/KevinHernot/relaybox) is a focused open-source Go project for reliable event delivery primitives:
+- [relaybox](https://github.com/KevinHernot/relaybox) is an open-source Go project for reliable event delivery primitives:
   - It currently starts with idempotent NATS consumers and stable event identity extraction from headers and payloads.
   - The goal is to grow it into a compact reliability toolkit for event-driven Go services, covering duplicate protection, deterministic event identity, and eventually broader delivery guarantees.
   - It reflects the backend reliability work behind Hopen, extracted into a smaller public building block instead of another monolithic framework.
 
-- [dialog_harbor](https://github.com/KevinHernot/dialog_harbor) is a focused open-source Flutter package for reliable dialog-intent delivery:
+- [dialog_harbor](https://github.com/KevinHernot/dialog_harbor) is an open-source Flutter package for reliable dialog-intent delivery:
   - It is designed for apps where important dialog events can arrive before the UI is ready, during reconnects, or across tricky lifecycle transitions.
   - The package centers on buffered delivery, TTL and priority-aware eviction, and persistence hooks for critical dialog intents.
   - It reflects the client-side reliability layer behind Hopen's request and real-time dialog flows, extracted into a reusable Flutter primitive.
+
+- [safe_back_navigation_wrapper](https://github.com/KevinHernot/safe_back_navigation_wrapper) is an open-source Flutter package for safer back-button handling:
+  - It wraps Flutter's modern `PopScope` API in a small, router-agnostic primitive that helps prevent accidental app exits on root screens.
+  - The package supports fallback navigation callbacks and a reusable mixin for pages that want explicit back-navigation control without coupling to `go_router`, `auto_router` or anything else.
+  - It reflects a small but practical UX/navigation pattern extracted from Hopen's Flutter client into a reusable package.
