@@ -103,13 +103,13 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - Building a Flutter client shaped by clean architecture, strong interaction design, and real-time UX.
   - Building a Go backend around gRPC, events, messaging, and operational clarity.
   - Building a DevSecOps pipeline that follows best practices.
-  - Discover Hopen at [hopenapp.com](https://hopenapp.com)
+- Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
   <img src="./assets/ORI.jpg" alt="ORI" width="100%">
 </p>
 
-- ORI: [Open Runtime Interchange](https://github.com/kevinhernot/ori) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+- ORI: [Open Runtime Interchange](https://github.com/KevinHernot/ori) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
   - This project is intentionally standards-first. ORI is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
   - The working thesis is simple:
     > OpenAI compatibility is necessary, but it is not enough.
@@ -133,3 +133,13 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - **Token Merging**: Voxel engine mods merge adjacent identical block faces into single large rectangles to cut draw calls. Blackhole fuses adjacent tokens with near-identical KV representations, shrinking the sequence dimension itself. *Don't process a hundred redundant faces when one rectangle will do.*
  - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for the five pillars.
  - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
+
+- [relaybox](https://github.com/KevinHernot/relaybox) is a focused open-source Go project for reliable event delivery primitives:
+  - It currently starts with idempotent NATS consumers and stable event identity extraction from headers and payloads.
+  - The goal is to grow it into a compact reliability toolkit for event-driven Go services, covering duplicate protection, deterministic event identity, and eventually broader delivery guarantees.
+  - It reflects the backend reliability work behind Hopen, extracted into a smaller public building block instead of another monolithic framework.
+
+- [dialog_harbor](https://github.com/KevinHernot/dialog_harbor) is a focused open-source Flutter package for reliable dialog-intent delivery:
+  - It is designed for apps where important dialog events can arrive before the UI is ready, during reconnects, or across tricky lifecycle transitions.
+  - The package centers on buffered delivery, TTL and priority-aware eviction, and persistence hooks for critical dialog intents.
+  - It reflects the client-side reliability layer behind Hopen's request and real-time dialog flows, extracted into a reusable Flutter primitive.
