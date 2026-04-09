@@ -97,7 +97,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 ## Currently building 🚧
 
 <p align="center">
-  <img src="./assets/hopen-logotype.png" alt="Hopen" width="60%">
+  <img src="./assets/hopen-logotype.png" alt="Hopen" height="180">
 </p>
 
 - Hopen: The social app to help everyone make true friends.
@@ -137,7 +137,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 
 <p align="center">
-  <img src="./assets/go.png" alt="Go" width="100%">
+  <img src="./assets/go.png" alt="Go" height="180">
 </p>
 
 - [relaybox](https://github.com/KevinHernot/relaybox) is an open-source Go project for reliable event delivery primitives:
@@ -147,7 +147,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 
 <p align="center">
-  <img src="./assets/flutter.png" alt="Flutter" width="100%">
+  <img src="./assets/flutter.png" alt="Flutter" height="180">
 </p>
 
 - [dialog_harbor](https://github.com/KevinHernot/dialog_harbor) is an open-source Flutter package for reliable dialog-intent delivery:
