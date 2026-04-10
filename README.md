@@ -34,6 +34,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 <p>
   <a href="https://github.com/NVIDIA/cuda-samples"><img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA"></a>
+  <a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/badge/vLLM-31a2ff?style=flat-square&logoColor=white" alt="vLLM"></a>
   <a href="https://github.com/ggml-org/llama.cpp"><img src="https://img.shields.io/badge/llama.cpp-111111?style=flat-square&logo=llama&logoColor=white" alt="llama.cpp"></a>
   <a href="https://github.com/ggml-org/ggml"><img src="https://img.shields.io/badge/ggml-1F2937?style=flat-square&logo=c&logoColor=white" alt="ggml"></a>
   <a href="https://github.com/apple/mlx"><img src="https://img.shields.io/badge/MLX-111827?style=flat-square&logo=apple&logoColor=white" alt="MLX"></a>
@@ -133,7 +134,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - **Procedural Weights**: No Man's Sky generates entire galaxies from tiny seeds, trading storage for compute. Blackhole identifies low-salience weight tiles and regenerates them on the fly from compact seeds, bypassing the memory bus entirely. *Don't store what you can cheaply recompute.*
   - **Token Merging**: Voxel engine mods merge adjacent identical block faces into single large rectangles to cut draw calls. Blackhole fuses adjacent tokens with near-identical KV representations, shrinking the sequence dimension itself. *Don't process a hundred redundant faces when one rectangle will do.*
  - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for the five pillars.
- - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/MLX path toward parity with the Python PoC.
+ - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/vllm/MLX path toward parity with the Python PoC.
 
 
 <p align="center">
