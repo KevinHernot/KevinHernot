@@ -14,7 +14,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 **Hopen** is the product expression of that focus: a brand-new social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
 
-**sbar (Seastar Aliaser Blackhole Runtime)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
+**sbar (Seastar Blackhole Aliaser Runtime)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
 
@@ -111,7 +111,12 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <img src="./assets/sbar.jpg" alt="sbar" width="100%">
 </p>
 
-- sbar (Seastar Aliaser Blackhole Runtime): [sbar](https://github.com/KevinHernot/sbar) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+- sbar (Seastar Blackhole Aliaser Runtime): [sbar](https://github.com/KevinHernot/sbar) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+  - The **sbar** acronym stands for:
+    - **S**eastar: kernel-bypassing networking
+    - **B**lackhole: semantic context routing
+    - **A**liaser: AOT memory planning
+    - **R**untime: unified execution for agentic LLM workflows
   - This project is intentionally standards-first. sbar is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
   - The working thesis is simple:
     > OpenAI compatibility is necessary, but it is not enough.
