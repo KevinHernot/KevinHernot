@@ -14,7 +14,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 **Hopen** is the product expression of that focus: a brand-new social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
 
-**Open Runtime Interchange (ORI)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
+**sbar** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
 
@@ -108,11 +108,11 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
-  <img src="./assets/ORI.jpg" alt="ORI" width="100%">
+  <img src="./assets/sbar.jpg" alt="sbar" width="100%">
 </p>
 
-- ORI: [Open Runtime Interchange](https://github.com/KevinHernot/ori) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
-  - This project is intentionally standards-first. ORI is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
+- sbar: [sbar](https://github.com/KevinHernot/sbar) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+  - This project is intentionally standards-first. sbar is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
   - The working thesis is simple:
     > OpenAI compatibility is necessary, but it is not enough.
   - OpenAI-style APIs made client integration easier, but runtimes still diverge in the most important places underneath the surface:
@@ -121,7 +121,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
      - routing state for MoE, RAG, and tools
     - backend-specific capabilities
     - observability, replay, and benchmark output
-  - ORI focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
+  - sbar focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
 
 <p align="center">
   <img src="./assets/blackhole.jpg" alt="Blackhole" width="100%">
