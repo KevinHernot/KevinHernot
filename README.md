@@ -111,7 +111,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <img src="./assets/SABR.jpg" alt="sabr" width="100%">
 </p>
 
-- sabr (Seastar Blackhole Aliaser Runtime): [sabr](https://github.com/KevinHernot/sabr) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+- [sabr](https://github.com/KevinHernot/sabr) (Seastar Blackhole Aliaser Runtime) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
   - The **sabr** acronym stands for:
     - **S**eastar: kernel-bypassing networking
     - **B**lackhole: semantic context routing
