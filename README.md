@@ -14,7 +14,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 **Hopen** is the product expression of that focus: a brand-new social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
 
-**sbar (Seastar Blackhole Aliaser Runtime)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
+**sabr (Seastar Blackhole Aliaser Runtime)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
 
@@ -111,13 +111,13 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <img src="./assets/SABR.jpg" alt="sabr" width="100%">
 </p>
 
-- sabr (Seastar Blackhole Aliaser Runtime): [sbar](https://github.com/KevinHernot/sbar) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
-  - The **sbar** acronym stands for:
+- sabr (Seastar Blackhole Aliaser Runtime): [sabr](https://github.com/KevinHernot/sabr) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+  - The **sabr** acronym stands for:
     - **S**eastar: kernel-bypassing networking
     - **B**lackhole: semantic context routing
     - **A**liaser: AOT memory planning
     - **R**untime: unified execution for agentic LLM workflows
-  - This project is intentionally standards-first. sbar is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
+  - This project is intentionally standards-first. sabr is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
   - The working thesis is simple:
     > OpenAI compatibility is necessary, but it is not enough.
   - OpenAI-style APIs made client integration easier, but runtimes still diverge in the most important places underneath the surface:
@@ -126,7 +126,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
      - routing state for MoE, RAG, and tools
     - backend-specific capabilities
     - observability, replay, and benchmark output
-  - sbar focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
+  - sabr focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
 
 <p align="center">
   <img src="./assets/blackhole.jpg" alt="Blackhole" width="100%">
