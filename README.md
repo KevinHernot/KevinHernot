@@ -108,10 +108,10 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
-  <img src="./assets/sbar.jpg" alt="sbar" width="100%">
+  <img src="./assets/SABR.jpg" alt="sabr" width="100%">
 </p>
 
-- sbar (Seastar Blackhole Aliaser Runtime): [sbar](https://github.com/KevinHernot/sbar) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+- sabr (Seastar Blackhole Aliaser Runtime): [sbar](https://github.com/KevinHernot/sbar) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
   - The **sbar** acronym stands for:
     - **S**eastar: kernel-bypassing networking
     - **B**lackhole: semantic context routing
