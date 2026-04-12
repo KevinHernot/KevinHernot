@@ -117,16 +117,6 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
     - **B**lackhole: semantic context routing
     - **A**liaser: AOT memory planning
     - **R**untime: unified execution for agentic LLM workflows
-  - This project is intentionally standards-first. sabr is not "yet another inference engine," a Kubernetes platform, or a scheduler product. It is a portable runtime and data-plane contract that inference engines, routing runtimes, and serving platforms can adopt together.
-  - The working thesis is simple:
-    > OpenAI compatibility is necessary, but it is not enough.
-  - OpenAI-style APIs made client integration easier, but runtimes still diverge in the most important places underneath the surface:
-    - cache identity and reuse
-    - disaggregated prefill/decode handoff
-     - routing state for MoE, RAG, and tools
-    - backend-specific capabilities
-    - observability, replay, and benchmark output
-  - sabr focuses on those lower layers without mandating one kernel stack, one router or one serving topology.
 
 <p align="center">
   <img src="./assets/blackhole.jpg" alt="Blackhole" width="100%">
