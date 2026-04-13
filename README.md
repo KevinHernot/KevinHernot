@@ -14,7 +14,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 
 **Hopen** is the product expression of that focus: a brand-new social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
 
-**sabr (Seastar Blackhole Aliaser Runtime)** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
+**sabr** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
 
@@ -111,7 +111,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <img src="./assets/SABR.jpg" alt="sabr" width="100%">
 </p>
 
-- [sabr](https://github.com/KevinHernot/sabr) (Seastar Blackhole Aliaser Runtime) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
+- [sabr](https://github.com/KevinHernot/sabr) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
   - The **sabr** acronym stands for:
     - **S**eastar: kernel-bypassing networking
     - **B**lackhole: semantic context routing
