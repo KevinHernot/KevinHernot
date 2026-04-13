@@ -139,9 +139,16 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 </p>
 
 - [relaybox](https://github.com/KevinHernot/relaybox) is an open-source Go project for reliable event delivery primitives:
-  - It currently starts with idempotent NATS consumers and stable event identity extraction from headers and payloads.
-  - The goal is to grow it into a compact reliability toolkit for event-driven Go services, covering duplicate protection, deterministic event identity, and eventually broader delivery guarantees.
+  - It provides idempotent NATS consumers with stable event identity extraction from headers, payload IDs, and canonical JSON hashes.
+  - It now includes transactional outbox primitives: portable repository interfaces, an in-memory repository, batch processing, retry/backoff handling, and a Core NATS publisher.
+  - It also includes delayed message scheduling by reusing the outbox lifecycle through `AvailableAt`, keeping delayed delivery and normal publish retries on the same path.
   - It reflects the backend reliability work behind Hopen, extracted into a smaller public building block instead of another monolithic framework.
+
+- [fencelock](https://github.com/KevinHernot/fencelock) is an open-source Go project for distributed locks with fencing tokens:
+  - It exposes a small `Manager` / `Lock` API where every successful acquisition receives a monotonically increasing token.
+  - It ships with a backend-neutral `Store` interface, a process-local `MemoryStore`, and a Valkey-backed implementation using `INCR`, `SET NX EX`, and Lua compare-and-delete / compare-and-refresh scripts.
+  - It includes a `MemoryFencingTokenGuard` to demonstrate the critical resource-side rule: reject any write whose token is not newer than the highest token already accepted.
+  - It reflects the concurrency-control work behind Hopen, where a TTL lock alone is not enough if a paused worker can wake up after its lease has expired.
 
 
 <p align="center">
