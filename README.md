@@ -133,6 +133,12 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
  - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for the five pillars.
  - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/vllm/MLX path toward parity with the Python PoC.
 
+- [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
+  - It exposes a small generic contract for `generate`, `embed`, `score`, and `classify` workloads instead of locking into a single model shape.
+  - It runs inference behind an explicit queue with microbatching so HTTP stays responsive while model work is coalesced efficiently.
+  - It ships with a dependency-free `echo` engine for tests and demos plus an optional MLX-backed engine for Apple Silicon text generation.
+  - It reflects the local inference building blocks behind the Apple-native runtime work, extracted into a reusable service primitive.
+
 
 <p align="center">
   <img src="./assets/go.png" alt="Go" height="180">
@@ -149,6 +155,16 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - It ships with a backend-neutral `Store` interface, a process-local `MemoryStore`, and a Valkey-backed implementation using `INCR`, `SET NX EX`, and Lua compare-and-delete / compare-and-refresh scripts.
   - It includes a `MemoryFencingTokenGuard` to demonstrate the critical resource-side rule: reject any write whose token is not newer than the highest token already accepted.
   - It reflects the concurrency-control work behind Hopen, where a TTL lock alone is not enough if a paused worker can wake up after its lease has expired.
+
+- [go_guardrails](https://github.com/KevinHernot/go_guardrails) is an open-source Go static-analysis tool for production services:
+  - It ships a `goguardrails` CLI that flags missing context propagation, leaked cancel ownership, unmanaged goroutines, and implicit `http.Response.Body.Close()` error handling.
+  - It focuses on failure modes that are easy to miss in review and annoying to debug after deployment.
+  - It reflects reliability checks from service-heavy Go systems, extracted into a small developer-facing guardrail instead of buried tribal knowledge.
+
+- [sagabox](https://github.com/KevinHernot/sagabox) is an open-source Go project for small saga orchestration primitives:
+  - It includes explicit state transitions, resumable steps, reverse-order compensation, recovery strategies, and repository-backed workflow state.
+  - It stays storage-agnostic so applications can plug in PostgreSQL, SQLite, Valkey, files, or any other persistence layer.
+  - It reflects distributed workflow and recovery patterns from backend systems work, extracted into a neutral building block instead of another opinionated framework.
 
 
 <p align="center">
