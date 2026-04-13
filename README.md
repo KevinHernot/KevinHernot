@@ -111,12 +111,14 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <img src="./assets/SABR.jpg" alt="sabr" width="100%">
 </p>
 
-- [sabr](https://github.com/KevinHernot/sabr) is an open runtime standard for LLM inference focused on portable KV caches, routing state, observability, disaggregated serving, conformance, and a native runtime track instead of another closed engine silo.
-  - The **sabr** acronym stands for:
-    - **S**eastar: kernel-bypassing networking
-    - **B**lackhole: semantic context routing
-    - **A**liaser: AOT memory planning
-    - **R**untime: unified execution for agentic LLM workflows
+- [sabr](https://github.com/KevinHernot/sabr) is a high-performance, native-first inference stack for Apple Silicon, focused on portable KV caches, routing state, and observability. The aim of sabr is to move beyond vllm frontier.
+  - **Dynamic Runtime**: Keeps orchestration and model loading in C++ to minimize overhead and allocator churn on unified-memory systems.
+  - **Silicon-Native Backends**: Optimized MLX and Metal paths for stable-shape decode bucketing, GPU-resident attention, and persistent pipelines.
+  - **Deterministic Placement**: Implements a unified heap for predictable token placement and replay, avoiding reactive paging under memory pressure.
+  - **Logical Sparsity**: Integrated routing layer selects active token sets without forcing physical memory compaction on every step.
+  - **Unified ABI**: Shared contract for byte-paged storage, graph-side transforms, and per-layer dense/packed execution policies.
+  - **System Parity**: Shipped with vectorized dequantization and race-free kernels, ensuring consistent throughput across Apple environments.
+
 
 <p align="center">
   <img src="./assets/blackhole.jpg" alt="Blackhole" width="100%">
