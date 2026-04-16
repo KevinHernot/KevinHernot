@@ -12,8 +12,6 @@ I care about software that feels simple and clear on the surface, while being te
 
 I research frontier solutions to push the boundaries of LLM inference, spanning high-performance **cloud infrastructure (A100/H100)** and optimized **local/edge execution** (Apple Silicon).
 
-**Hopen** is the product expression of that focus: a brand-new social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
-
 **sabr** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
@@ -99,16 +97,6 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 ## Building
 
 <p align="center">
-  <img src="./assets/hopen-logotype.png" alt="Hopen" height="180">
-</p>
-
-- Hopen: The social app to help everyone make true friends.
-  - Building a Flutter client shaped by clean architecture, strong interaction design, and real-time UX.
-  - Building a Go backend around gRPC, events, messaging, and operational clarity.
-  - Building a DevSecOps pipeline that follows best practices.
-- Discover Hopen at [hopenapp.com](https://hopenapp.com)
-
-<p align="center">
   <img src="./assets/SABR.jpg" alt="sabr" width="100%">
 </p>
 
@@ -149,13 +137,13 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - It provides idempotent NATS consumers with stable event identity extraction from headers, payload IDs, and canonical JSON hashes.
   - It now includes transactional outbox primitives: portable repository interfaces, an in-memory repository, batch processing, retry/backoff handling, and a Core NATS publisher.
   - It also includes delayed message scheduling by reusing the outbox lifecycle through `AvailableAt`, keeping delayed delivery and normal publish retries on the same path.
-  - It reflects the backend reliability work behind Hopen, extracted into a smaller public building block instead of another monolithic framework.
+  - It packages common backend event-delivery patterns into a smaller public building block instead of another monolithic framework.
 
 - [fencelock](https://github.com/KevinHernot/fencelock) is an open-source Go project for distributed locks with fencing tokens:
   - It exposes a small `Manager` / `Lock` API where every successful acquisition receives a monotonically increasing token.
   - It ships with a backend-neutral `Store` interface, a process-local `MemoryStore`, and a Valkey-backed implementation using `INCR`, `SET NX EX`, and Lua compare-and-delete / compare-and-refresh scripts.
   - It includes a `MemoryFencingTokenGuard` to demonstrate the critical resource-side rule: reject any write whose token is not newer than the highest token already accepted.
-  - It reflects the concurrency-control work behind Hopen, where a TTL lock alone is not enough if a paused worker can wake up after its lease has expired.
+  - It centers the concurrency-control rule that a TTL lock alone is not enough if a paused worker can wake up after its lease has expired.
 
 - [go_guardrails](https://github.com/KevinHernot/go_guardrails) is an open-source Go static-analysis tool for production services:
   - It ships a `goguardrails` CLI that flags missing context propagation, leaked cancel ownership, unmanaged goroutines, and implicit `http.Response.Body.Close()` error handling.
@@ -175,14 +163,14 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 - [hardware_backed_dpop](https://github.com/KevinHernot/hardware_backed_dpop) is an open-source Flutter plugin for hardware-backed DPoP binding and proof signing:
   - It generates ES256 key material inside Android Keystore and iOS Secure Enclave / Keychain paths so the private key never needs to leave native storage.
   - It exposes the public binding material a backend needs (`rawPublicKey`, `jkt`, `jwk`) and signs JWS inputs natively for DPoP proofs.
-  - It reflects the mobile-side proof-of-possession security work behind Hopen, extracted into a focused full-stack auth building block.
+  - It packages mobile-side proof-of-possession primitives into a focused auth building block.
 
 - [dialog_harbor](https://github.com/KevinHernot/dialog_harbor) is an open-source Flutter package for reliable dialog-intent delivery:
   - It is designed for apps where important dialog events can arrive before the UI is ready, during reconnects, or across tricky lifecycle transitions.
   - The package centers on buffered delivery, TTL and priority-aware eviction, and persistence hooks for critical dialog intents.
-  - It reflects the client-side reliability layer behind Hopen's request and real-time dialog flows, extracted into a reusable Flutter primitive.
+  - It packages buffered delivery, TTL and priority-aware eviction, and persistence hooks into a reusable Flutter primitive.
 
 - [safe_back_navigation_wrapper](https://github.com/KevinHernot/safe_back_navigation_wrapper) is an open-source Flutter package for safer back-button handling:
   - It wraps Flutter's modern `PopScope` API in a small, router-agnostic primitive that helps prevent accidental app exits on root screens.
   - The package supports fallback navigation callbacks and a reusable mixin for pages that want explicit back-navigation control without coupling to `go_router`, `auto_router` or anything else.
-  - It reflects a small but practical UX/navigation pattern extracted from Hopen's Flutter client into a reusable package.
+  - It packages a small but practical UX/navigation pattern into a reusable package.
