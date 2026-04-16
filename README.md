@@ -65,6 +65,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   <a href="https://github.com/grafana/tempo"><img src="https://img.shields.io/badge/Tempo-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Tempo"></a>
   <a href="https://github.com/grafana/loki"><img src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Loki"></a>
   <a href="https://github.com/grafana/alloy"><img src="https://img.shields.io/badge/Alloy-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Alloy"></a>
+  <a href="https://github.com/grafana/pyroscope"><img src="https://img.shields.io/badge/Pyroscope-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Pyroscope"></a>
   <a href="https://github.com/prometheus/prometheus"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"></a>
   <a href="https://github.com/open-telemetry/opentelemetry-collector"><img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"></a>
 </p>
@@ -170,6 +171,11 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 <p align="center">
   <img src="./assets/flutter.png" alt="Flutter" height="180">
 </p>
+
+- [hardware_backed_dpop](https://github.com/KevinHernot/hardware_backed_dpop) is an open-source Flutter plugin for hardware-backed DPoP binding and proof signing:
+  - It generates ES256 key material inside Android Keystore and iOS Secure Enclave / Keychain paths so the private key never needs to leave native storage.
+  - It exposes the public binding material a backend needs (`rawPublicKey`, `jkt`, `jwk`) and signs JWS inputs natively for DPoP proofs.
+  - It reflects the mobile-side proof-of-possession security work behind Hopen, extracted into a focused full-stack auth building block.
 
 - [dialog_harbor](https://github.com/KevinHernot/dialog_harbor) is an open-source Flutter package for reliable dialog-intent delivery:
   - It is designed for apps where important dialog events can arrive before the UI is ready, during reconnects, or across tricky lifecycle transitions.
