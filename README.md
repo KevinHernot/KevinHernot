@@ -12,6 +12,8 @@ I care about software that feels simple and clear on the surface, while being te
 
 I research frontier solutions to push the boundaries of LLM inference, spanning high-performance **cloud infrastructure (A100/H100)** and optimized **local/edge execution** (Apple Silicon).
 
+**Hopen** is the product expression of that focus: a brand-new social platform bringing together Flutter, Go, and real-time systems to help everyone make true friends.
+
 **sabr** represents the system-level frontier: an open standard for runtime portability, connecting KV caches, routing state, and observability across engines.
 
 **Blackhole** adapts game-engine optimization pillars to the LLM world, dramatically accelerating high-performance inference through custom kernels and memory-aware scheduling.
@@ -95,6 +97,16 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 </p>
 
 ## Building
+
+<p align="center">
+  <img src="./assets/hopen-logotype.png" alt="Hopen" height="180">
+</p>
+
+- Hopen: The social app to help everyone make true friends.
+  - Building a Flutter client shaped by clean architecture, strong interaction design, and real-time UX.
+  - Building a Go backend around gRPC, events, messaging, and operational clarity.
+  - Building a DevSecOps pipeline that follows best practices.
+- Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
   <img src="./assets/SABR.jpg" alt="sabr" width="100%">
