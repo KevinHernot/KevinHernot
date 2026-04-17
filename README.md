@@ -1,4 +1,4 @@
-<h1 align="center">Tech founder / AI research scientist</h1>
+<h1 align="center">Tech founder / AI research </h1>
 
 <p align="center">
   AI research | Mobile frontend | Scalable backend | DevSecOps
