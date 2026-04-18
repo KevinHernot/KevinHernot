@@ -109,7 +109,7 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
 - Discover Hopen at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
-  <img src="./assets/SABR.jpg" alt="sabr" width="100%">
+  <img src="./assets/sabr.png" alt="sabr" width="100%">
 </p>
 
 - [sabr](https://github.com/KevinHernot/sabr) is a high-performance, native-first inference stack for Apple Silicon, focused on portable KV caches, routing state, and observability. The aim of sabr is to move beyond vllm frontier.
