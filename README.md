@@ -146,6 +146,11 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - It stays storage-agnostic so applications can plug in PostgreSQL, SQLite, Valkey, files, or any other persistence layer.
   - It reflects distributed workflow and recovery patterns from backend systems work, extracted into a neutral building block instead of another opinionated framework.
 
+- [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
+  - It exposes a small generic contract for `generate`, `embed`, `score`, and `classify` workloads instead of locking into a single model shape.
+  - It runs inference behind an explicit queue with microbatching so HTTP stays responsive while model work is coalesced efficiently.
+  - It ships with a dependency-free `echo` engine for tests and demos plus an optional MLX-backed engine for Apple Silicon text generation.
+  - It reflects the local inference building blocks behind the Apple-native runtime work, extracted into a reusable service primitive.
 
 <p align="center">
   <img src="./assets/flutter.png" alt="Flutter" height="180">
@@ -165,9 +170,3 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - It wraps Flutter's modern `PopScope` API in a small, router-agnostic primitive that helps prevent accidental app exits on root screens.
   - The package supports fallback navigation callbacks and a reusable mixin for pages that want explicit back-navigation control without coupling to `go_router`, `auto_router` or anything else.
   - It packages a small but practical UX/navigation pattern into a reusable package.
-
-  - [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
-  - It exposes a small generic contract for `generate`, `embed`, `score`, and `classify` workloads instead of locking into a single model shape.
-  - It runs inference behind an explicit queue with microbatching so HTTP stays responsive while model work is coalesced efficiently.
-  - It ships with a dependency-free `echo` engine for tests and demos plus an optional MLX-backed engine for Apple Silicon text generation.
-  - It reflects the local inference building blocks behind the Apple-native runtime work, extracted into a reusable service primitive.
