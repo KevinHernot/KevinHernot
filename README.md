@@ -120,27 +120,6 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - **Unified ABI**: Shared contract for byte-paged storage, graph-side transforms, and per-layer dense/packed execution policies.
   - **System Parity**: Shipped with vectorized dequantization and race-free kernels, ensuring consistent throughput across Apple environments.
 
-
-<p align="center">
-  <img src="./assets/blackhole.jpg" alt="Blackhole" width="100%">
-</p>
-
-- Blackhole: LLM inference hits the same enemy that 90s game engines fought — the **memory wall**. Doom, Quake, and Minecraft survived on a few megabytes of RAM by developing an entire science of *algorithmic illusion*: never render what the player can't see, never move data the GPU doesn't need, never store what you can generate on the fly. Blackhole translates five of those game-engine paradigms into the transformer attention mechanism:
-  - **Semantic PVS**: Quake precomputed which rooms were visible from each position and skipped everything else. Blackhole does the same: a lightweight routing layer estimates which KV blocks matter and skips loading the rest. *Don't render what the player can't see; don't attend to what the query doesn't need.*
-  - **Portal Attention**: Descent split worlds into rooms connected by portal polygons and only rendered what was visible through the current doorway. Blackhole partitions context into semantic domains, keeps only the active domain plus a small bridge window live, and gates out everything else. *Don't load the entire map when you're standing in one room.*
-  - **Predictive Transport**: Quake III didn't send full player coordinates every frame — the client predicted locally and the server only sent a correction delta. Blackhole predicts the next activation state locally and transmits only the residual error between devices. *Don't send the whole packet when a small correction will do.*
-  - **Procedural Weights**: No Man's Sky generates entire galaxies from tiny seeds, trading storage for compute. Blackhole identifies low-salience weight tiles and regenerates them on the fly from compact seeds, bypassing the memory bus entirely. *Don't store what you can cheaply recompute.*
-  - **Token Merging**: Voxel engine mods merge adjacent identical block faces into single large rectangles to cut draw calls. Blackhole fuses adjacent tokens with near-identical KV representations, shrinking the sequence dimension itself. *Don't process a hundred redundant faces when one rectangle will do.*
- - [blackhole](https://github.com/KevinHernot/blackhole) is the Python proof-of-concept and algorithm reference layer for the five pillars.
- - [blackhole_runtime](https://github.com/KevinHernot/blackhole_runtime) is the executable runtime and backend workspace carrying the C++/ggml/Metal/CUDA/vllm/MLX path toward parity with the Python PoC.
-
-- [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
-  - It exposes a small generic contract for `generate`, `embed`, `score`, and `classify` workloads instead of locking into a single model shape.
-  - It runs inference behind an explicit queue with microbatching so HTTP stays responsive while model work is coalesced efficiently.
-  - It ships with a dependency-free `echo` engine for tests and demos plus an optional MLX-backed engine for Apple Silicon text generation.
-  - It reflects the local inference building blocks behind the Apple-native runtime work, extracted into a reusable service primitive.
-
-
 <p align="center">
   <img src="./assets/go.png" alt="Go" height="180">
 </p>
@@ -186,3 +165,9 @@ I research frontier solutions to push the boundaries of LLM inference, spanning 
   - It wraps Flutter's modern `PopScope` API in a small, router-agnostic primitive that helps prevent accidental app exits on root screens.
   - The package supports fallback navigation callbacks and a reusable mixin for pages that want explicit back-navigation control without coupling to `go_router`, `auto_router` or anything else.
   - It packages a small but practical UX/navigation pattern into a reusable package.
+
+  - [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
+  - It exposes a small generic contract for `generate`, `embed`, `score`, and `classify` workloads instead of locking into a single model shape.
+  - It runs inference behind an explicit queue with microbatching so HTTP stays responsive while model work is coalesced efficiently.
+  - It ships with a dependency-free `echo` engine for tests and demos plus an optional MLX-backed engine for Apple Silicon text generation.
+  - It reflects the local inference building blocks behind the Apple-native runtime work, extracted into a reusable service primitive.
