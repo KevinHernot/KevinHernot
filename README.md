@@ -8,9 +8,7 @@
   <img src="./assets/bubble_globe.gif" width="100%" alt="Bubble Globe Rendering Demo">
 </p>
 
-My work is guided by a simple idea: technology should feel simple and clear on the surface, while being technically strong and resilient underneath.
-
-Right now, I am focused on two connected areas:
+I focus on two areas:
 
 **Solving solitude**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a new kind of social app bringing together Flutter and Go to help everyone make true friends.
 Register for early access at [hopenapp.com](https://hopenapp.com).
