@@ -10,15 +10,15 @@
 
 I focus on two areas:
 
-**Solving solitude**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a new kind of social app bringing together Flutter and Go to help everyone make true friends.
+**Solving solitude 🤝**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a new kind of social app bringing together Flutter and Go to help everyone make true friends.
 
 Register for early access at [hopenapp.com](https://hopenapp.com).
 
-**Solving the generative pre-trained transformer's dead end**: Most of the time, current frontier LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines.
+**Solving the generative pre-trained transformer's dead end 🧠**: Most of the time, current frontier LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines.
 
 The way forward is to go beyond generative pre-trained transformers and build a new kind of AI: one that computes **meaning**.
 
-## Building
+## Building 🛠️
 
 <p align="center">
   <img src="./assets/hopen-logotype.png" alt="Hopen" height="180">
@@ -97,7 +97,7 @@ The way forward is to go beyond generative pre-trained transformers and build a 
   - The package supports fallback navigation callbacks and a reusable mixin for pages that want explicit back-navigation control without coupling to `go_router`, `auto_router` or anything else.
   - It packages a small but practical UX/navigation pattern into a reusable package.
 
-## Working with
+## Working with ⚙️
 
 <p>
   <a href="https://github.com/flutter/flutter"><img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"></a>
@@ -161,7 +161,7 @@ The way forward is to go beyond generative pre-trained transformers and build a 
   <a href="https://github.com/KhronosGroup/glslang"><img src="https://img.shields.io/badge/Shaders-990000?style=flat-square&logo=opengl&logoColor=white" alt="Shaders"></a>
 </p>
 
-## Exploring
+## Exploring 🧭
 
 <p>
   <a href="https://github.com/python/cpython"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
