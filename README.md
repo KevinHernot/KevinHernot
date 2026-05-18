@@ -8,16 +8,6 @@
   <img src="./assets/bubble_globe.gif" width="100%" alt="Bubble Globe Rendering Demo">
 </p>
 
-## 🎯 My goals
-
-🤝 **Solving solitude**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a new kind of social app bringing together Flutter and Go to help everyone make true friends.
-
-Register for early access at [hopenapp.com](https://hopenapp.com).
-
-🧠 **Solving the LLM's false-precision dead end**: Most of the time, current frontier LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines.
-
-The way forward is to go beyond current LLMs and build a new kind of AI: one that computes **meaning**.
-
 ## 🛠️ Building
 
 <p align="center">
@@ -28,7 +18,7 @@ The way forward is to go beyond current LLMs and build a new kind of AI: one tha
   - Building a Flutter client shaped by clean architecture, strong interaction design, and real-time UX.
   - Building a Go backend around gRPC, events, messaging, and operational clarity.
   - Building a DevSecOps pipeline that follows best practices.
-- Discover Hopen at [hopenapp.com](https://hopenapp.com)
+- Register for early access at [hopenapp.com](https://hopenapp.com)
 
 <p align="center">
   <img src="./assets/sabr.png" alt="sabr" width="70%">
