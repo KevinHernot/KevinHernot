@@ -1,18 +1,18 @@
-<h1 align="center">Tech founder / AI research </h1>
+<h1 align="center">Tech founder / Independent AI researcher</h1>
 
 <p align="center">
-  AI research | Mobile frontend | Scalable backend | DevSecOps
+  Product systems | AI architecture | Mobile engineering | Infrastructure
 </p>
 
 <p align="center">
   <img src="./assets/bubble_globe.gif" width="100%" alt="Bubble Globe Rendering Demo">
 </p>
 
-My work is guided by a simple idea: all technologies should feel simple and clear on the surface, while being technically strong and resilient underneath.
+My work is guided by a simple idea: technology should feel simple and clear on the surface, while being technically strong and resilient underneath.
 
-Right now, I am focused on three connected areas:
+Right now, I am focused on two connected areas:
 
-**Solving solitude** : Never in the history of mankind have so many people felt so lonely. **Hopen** is the product expression of that concern: a brand-new social app bringing together Flutter and Go to help everyone make true friends. Register to the waitlist at [hopenapp.com](https://hopenapp.com).
+**Solving solitude**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a brand-new social app bringing together Flutter and Go to help everyone make true friends. Register for early access at [hopenapp.com](https://hopenapp.com).
 
 **Solving the LLM false-precision dead end**: Most of the time, LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines. The way forward is to go beyond LLMs and build a new kind of AI: one that computes **meaning**.
 
@@ -32,7 +32,7 @@ Right now, I am focused on three connected areas:
   <img src="./assets/sabr.png" alt="sabr" width="70%">
 </p>
 
-- [sabr](https://github.com/KevinHernot/sabr) is a high-performance, native-first inference stack for Apple Silicon, focused on portable KV caches, routing state, and observability. The aim of sabr is to move beyond vllm frontier.
+- [sabr](https://github.com/KevinHernot/sabr) is a high-performance, native-first inference stack for Apple Silicon, focused on portable KV caches, routing state, and observability. The aim of sabr is to move beyond the vLLM frontier.
   - **Dynamic Runtime**: Keeps orchestration and model loading in C++ to minimize overhead and allocator churn on unified-memory systems.
   - **Silicon-Native Backends**: Optimized MLX and Metal paths for stable-shape decode bucketing, GPU-resident attention, and persistent pipelines.
   - **Deterministic Placement**: Implements a unified heap for predictable token placement and replay, avoiding reactive paging under memory pressure.
