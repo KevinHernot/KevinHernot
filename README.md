@@ -14,7 +14,7 @@ Right now, I am focused on three connected areas:
 
 **Solving solitude** : Never in the history of mankind have so many people felt so lonely. **Hopen** is the product expression of that concern: a brand-new social app bringing together Flutter and Go to help everyone make true friends. Register to the waitlist at [hopenapp.com](https://hopenapp.com).
 
-**Solving the LLM false-precision dead end**: Most of the time, LLMs sound precise, coherent, and remarkably intelligent. Then, suddenly, they fail on something very simple. This is because LLMs are first and foremost pattern predictors, not reasoning engines. The solution to that problem is to build an AI that computes **meaning**.
+**Solving the LLM false-precision dead end**: Most of the time, LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines. The way forward is to go beyond LLMs and build a new kind of AI: one that computes **meaning**.
 
 ## Building
 
