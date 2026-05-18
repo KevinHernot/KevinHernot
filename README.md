@@ -14,7 +14,7 @@ Right now, I am focused on two connected areas:
 
 **Solving solitude**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a brand-new social app bringing together Flutter and Go to help everyone make true friends. Register for early access at [hopenapp.com](https://hopenapp.com).
 
-**Solving the LLM false-precision dead end**: Most of the time, LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines. The way forward is to go beyond LLMs and build a new kind of AI: one that computes **meaning**.
+**Solving the generative pre-trained transformer's dead end**: Most of the time, LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines. The way forward is to go beyond generative pre-trained transformers and build a new kind of AI: one that computes **meaning**.
 
 ## Building
 
@@ -41,6 +41,16 @@ Right now, I am focused on two connected areas:
   - **System Parity**: Shipped with vectorized dequantization and race-free kernels, ensuring consistent throughput across Apple environments.
 
 <p align="center">
+  <img src="./assets/mlx-logo.png" alt="mlxsidecar" height="180">
+</p>
+
+- [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
+  - It exposes a small generic contract for `generate`, `embed`, `score`, and `classify` workloads instead of locking into a single model shape.
+  - It runs inference behind an explicit queue with microbatching so HTTP stays responsive while model work is coalesced efficiently.
+  - It ships with a dependency-free `echo` engine for tests and demos plus an optional MLX-backed engine for Apple Silicon text generation.
+  - It reflects the local inference building blocks behind the Apple-native runtime work, extracted into a reusable service primitive.
+
+<p align="center">
   <img src="./assets/go.png" alt="Go" height="180">
 </p>
 
@@ -65,12 +75,6 @@ Right now, I am focused on two connected areas:
   - It includes explicit state transitions, resumable steps, reverse-order compensation, recovery strategies, and repository-backed workflow state.
   - It stays storage-agnostic so applications can plug in PostgreSQL, SQLite, Valkey, files, or any other persistence layer.
   - It reflects distributed workflow and recovery patterns from backend systems work, extracted into a neutral building block instead of another opinionated framework.
-
-- [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
-  - It exposes a small generic contract for `generate`, `embed`, `score`, and `classify` workloads instead of locking into a single model shape.
-  - It runs inference behind an explicit queue with microbatching so HTTP stays responsive while model work is coalesced efficiently.
-  - It ships with a dependency-free `echo` engine for tests and demos plus an optional MLX-backed engine for Apple Silicon text generation.
-  - It reflects the local inference building blocks behind the Apple-native runtime work, extracted into a reusable service primitive.
 
 <p align="center">
   <img src="./assets/flutter.png" alt="Flutter" height="180">
