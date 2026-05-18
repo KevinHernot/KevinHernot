@@ -11,9 +11,11 @@
 I focus on two areas:
 
 **Solving solitude**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a new kind of social app bringing together Flutter and Go to help everyone make true friends.
+
 Register for early access at [hopenapp.com](https://hopenapp.com).
 
 **Solving the generative pre-trained transformer's dead end**: Most of the time, current frontier LLMs sound precise, coherent, and remarkably intelligent when doing highly complex tasks. Then, unexpectedly, they fail to do something very basic. This is because LLMs are first and foremost pattern predictors, not reasoning engines.
+
 The way forward is to go beyond generative pre-trained transformers and build a new kind of AI: one that computes **meaning**.
 
 ## Building
