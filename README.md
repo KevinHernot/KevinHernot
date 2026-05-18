@@ -8,7 +8,7 @@
   <img src="./assets/bubble_globe.gif" width="100%" alt="Bubble Globe Rendering Demo">
 </p>
 
-I focus on two areas:
+## 🎯 My goals
 
 🤝 **Solving solitude**: Never in human history have so many people felt so lonely. **Hopen** is the product expression of that concern: a new kind of social app bringing together Flutter and Go to help everyone make true friends.
 
