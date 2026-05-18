@@ -41,7 +41,7 @@ Right now, I am focused on two connected areas:
   - **System Parity**: Shipped with vectorized dequantization and race-free kernels, ensuring consistent throughput across Apple environments.
 
 <p align="center">
-  <img src="./assets/mlx-logo.png" alt="mlxsidecar" height="180">
+  <img src="./assets/mlx-logo.png" alt="mlxsidecar" height="130">
 </p>
 
 - [mlxsidecar](https://github.com/KevinHernot/mlxsidecar) is an open-source Python sidecar for local and edge AI inference:
